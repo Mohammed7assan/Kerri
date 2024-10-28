@@ -285,3 +285,23 @@ header .description {
     max-width: 1140px;
   }
 }
+.portfolio .inner img {
+  width: 400px; /* Set your desired width */
+  height: 300px; /* Set your desired height */
+  object-fit: cover; /* Ensures images fill the space without stretching */
+}
+
+.card {
+  height: 100%; /* Allow the card to take full height of its container */
+}
+
+.card-body {
+  display: flex; /* Use flexbox for card body */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: space-between; /* Distribute space between elements */
+}
+
+.card-img-top {
+  max-height: 200px; /* Set a maximum height for images */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
